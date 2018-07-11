@@ -61,7 +61,7 @@ $('.face').children('#threePic').click(function(){
     $('.banner2').children('img').css({display: 'none'});
 });
 $('.face').children('#one').click(function(){
-    $('#threePic').css('background','url("../image/index/content.3.01.png") no-repeat center center');
+    $('#threePic').css('background','url("../image/index/content.3.03.png") no-repeat center center');
     $('#two').css('background','url("../image/index/content.3.02.png") no-repeat center center');
     $('#four').css('background','url("../image/index/content.3.04.png") no-repeat center center');
     $(this).css('background','url("../image/index/content.3.1.png") no-repeat center center');
@@ -69,7 +69,7 @@ $('.face').children('#one').click(function(){
 });
 $('.face').children('#two').click(function(){
     $('#one').css('background','url("../image/index/content.3.01.png") no-repeat center center');
-    $('#threePic').css('background','url("../image/index/content.3.02.png") no-repeat center center');
+    $('#threePic').css('background','url("../image/index/content.3.03.png") no-repeat center center');
     $('#four').css('background','url("../image/index/content.3.04.png") no-repeat center center');
     $(this).css('background','url("../image/index/content.3.2.png") no-repeat center center');
     $(this).children('p').css({display: 'none'}).end().siblings().children('p').css({display: 'block'});
@@ -77,7 +77,7 @@ $('.face').children('#two').click(function(){
 $('.face').children('#four').click(function(){
     $('#one').css('background','url("../image/index/content.3.01.png") no-repeat center center');
     $('#two').css('background','url("../image/index/content.3.02.png") no-repeat center center');
-    $('#threePic').css('background','url("../image/index/content.3.04.png") no-repeat center center');
+    $('#threePic').css('background','url("../image/index/content.3.03.png") no-repeat center center');
     $(this).css('background','url("../image/index/content.3.4.png") no-repeat center center');
     $(this).children('p').css({display: 'none'}).end().siblings().children('p').css({display: 'block'});
 });
